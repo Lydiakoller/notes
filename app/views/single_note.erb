@@ -1,0 +1,7 @@
+<h1>single note</h1>
+
+  <h2><%=@note[:title]%></h2></br></br>
+  <h3><%=@note[:content]%></h3>
+
+<a href = '/delete'>Delete this note</a>
+<a href = '/update_note/<%=@note[:id]%>'>Update this note</a>

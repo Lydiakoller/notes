@@ -1,0 +1,6 @@
+<h1>notes</h1>
+<%@all_notes.each do |note|%>
+<li><a href = '/single_note/<%=note.id%>'><%=note.title%> --- <%=note.content%></li>
+<%end%>
+
+<a href = '/'>Create another note</a>
